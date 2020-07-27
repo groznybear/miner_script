@@ -10,4 +10,5 @@ cd nq-miner-0.99.7
 
 pool_address1="${pool_address1}"
 
-sudo timeout 4320m ./miner --wallet-address="$wallet1" --pool=$pool_address1 --deviceLabel=$miner_id
+sudo timeout 4320m ./miner -a "$wallet1" --pool $pool_address1 -t "cuda"
+--volatile --threads 2 --cache 6 --memory-tradeoff 192

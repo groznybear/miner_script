@@ -4,9 +4,9 @@ sudo apt-get -y upgrade
 sudo apt -y install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev leafpad git xauth unzip
 
 #latest beta-miner
-wget https://github.com/Beeppool/miner/releases/download/0.6.0/beepminer-0.6.0.zip
-unzip beepminer-0.6.0.zip
-cd beepminer-0.6.0
+wget https://github.com/tomkha/nq-miner/releases/download/0.99.7/nq-miner-0.99.7.zip
+unzip nq-miner-0.99.7.zip
+cd nq-miner-0.99.7
 
 pool_address1="${pool_address1}"
 
